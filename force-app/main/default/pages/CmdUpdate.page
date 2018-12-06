@@ -1,0 +1,16 @@
+<apex:page controller="CmdSettings" docType="html-5.0">
+  
+  <apex:pageMessages id="pbm"/>
+  <apex:form >
+    <apex:pageBlock mode="edit" id="block" >
+        <apex:pageBlockSection title="Authykey">
+
+                <apex:input value="{!authykey}"  id="authykey"/>              
+                <br/>
+                <apex:commandButton value="Update" action="{!save}"  />
+
+        </apex:pageBlockSection>
+    </apex:pageBlock>        
+</apex:form>            
+  
+</apex:page>
