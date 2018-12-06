@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=G5q6jiBkqoI
 
 ## Dev, Build and Test
 Step 1 - Please get your Authy key from Twillio.com  
+
 Step 2 - Go to this Visualfroce page and update Authy key that is stored in managed package's custom settings.  
 /apex/CmdUpdate . 
 e.g. Following is a sample URL . 
